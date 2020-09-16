@@ -238,7 +238,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-	elif bch =="10":
+	elif bch =="11":
 		os.system("clear")
 		print (logo)
 		print("30, 01, 02, 03, 04, 05, 06, 07, 08 ,09")
@@ -252,7 +252,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")	
 			menu()
-	elif bch =="11":
+	elif bch =="15":
 	    os.system("clear")
 	    os.system("pip2 install --upgrade balln")
 	    os.system("pip2 install --upgrade balln")
