@@ -241,7 +241,7 @@ def action():
 	elif bch =="11":
 		os.system("clear")
 		print (logo)
-		print("30, 01, 02, 03, 04, 05, 06, 07, 08 ,09")
+		print("Jazz 300, 301, 302, 303, 04, 05, 06, 07, 08 ,09")
 		try:
 			c = raw_input(" choose code  : ")
 			k="+92"
