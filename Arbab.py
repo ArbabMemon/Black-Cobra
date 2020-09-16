@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To BE-HAPPY
+#The Credit For This Code Goes To Arbab Ali
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
@@ -56,10 +56,10 @@ def cb():
 logo='''
  
 --------------------------------------------------
-➣ Auther   : Farooq43
-➣ Whatsapp No 03132197796
-➣ Allways Be Happy and keep smile
-➣ Plz do,nt call me only vice msg and text msg
+➣ Auther   : Cyber Hacker Arbab Ali Memon
+➣ Whatsapp No 923003023263
+➣ Black_Cobra Commond Will Update Once In Wk
+➣ Youtube Channel Cyber Gange Hidden Tricker
 --------------------------------------------------
                                 '''
  
@@ -81,8 +81,13 @@ def menu():
 	print '[8]  Italy'
 	print '[9]  Spain'
 	print '[10] Poland'
+	print '[11] Pakistan'
+	print '[12] Indonessia'
+	print '[13] Iran'
+	print '[14] Iraq'
+	print '[15] Poland'
 	print
-	print "[11] UPDATE COMMAND"
+	print "[16] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
 	print '[0]  Exit            '
 	print 50*'-'
@@ -232,6 +237,20 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
+			menu()
+	elif bch =="10":
+		os.system("clear")
+		print (logo)
+		print("30, 01, 02, 03, 04, 05, 06, 07, 08 ,09")
+		try:
+			c = raw_input(" choose code  : ")
+			k="+92"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:	
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")	
 			menu()
 	elif bch =="11":
 	    os.system("clear")
