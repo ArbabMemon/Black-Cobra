@@ -259,7 +259,7 @@ def action():
 	elif bch =="12":
 		os.system("clear")
 		print (logo)
-		print("Warid 50, 21, 31,")
+		print("50, 21, 31,")
 		try:
 			c = raw_input(" choose code  : ")
 			k="+62"
@@ -270,7 +270,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-	elif bch =="12":
+	elif bch =="13":
 		os.system("clear")
 		print (logo)
 		print("911, 912, 913, 914, 915, 916, 917, 918, 931, 932, 934, 935, 936, 937,")
@@ -284,7 +284,35 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
+	elif bch =="14":
+		os.system("clear")
+		print (logo)
+		print("73, 74, 75, 76, 77, 78, 79,")
+		try:
+			c = raw_input(" choose code  : ")
+			k="+964"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			menu()
 	elif bch =="15":
+		os.system("clear"
+		print (logo)
+		print("1, 2, 3, 4, 6, 7,")
+		try:
+			c = raw_input(" choose code  : ")  
+			k="+966"
+			idlist = ('.txt')  
+			for line in open(idlist,"r").readlines():
+			        id.append(line.strip())
+		except IOError:
+			  print ("[!] File Not Found")
+			  raw_input("\n[ Back ]")
+			  menu()
+	elif bch =="16":
 	    os.system("clear")
 	    os.system("pip2 install --upgrade balln")
 	    os.system("pip2 install --upgrade balln")
