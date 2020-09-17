@@ -86,8 +86,9 @@ def menu():
 	print '[13] Iran'
 	print '[14] Iraq'
 	print '[15] Saudi Arabia'
+	print '[16] Russia
 	print
-	print "[16] UPDATE COMMAND"
+	print "[17] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
 	print '[0]  Exit            '
 	print 50*'-'
@@ -313,6 +314,10 @@ def action():
 			  raw_input("\n[ Back ]")
 			  menu()
 	elif bch =="16":
+		os.system("clear")
+		print (logo)
+		
+	elif bch =="17":
 	    os.system("clear")
 	    os.system("pip2 install --upgrade balln")
 	    os.system("pip2 install --upgrade balln")
