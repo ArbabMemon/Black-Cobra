@@ -72,7 +72,7 @@ def menu():
 	os.system('clear')
 	print logo
 	print '[1]  Bangladesh'
-	print" '[2]  USA'
+	print '[2]  USA'
 	print '[3]  UK'
 	print '[4]  India'
 	print '[5]  Brazil'
