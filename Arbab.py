@@ -270,6 +270,20 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
+	elif bch =="12":
+		os.system("clear")
+		print (logo)
+		print("911, 912, 913, 914, 915, 916, 917, 918, 931, 932, 934, 935, 936, 937,")
+		try:
+			c = raw_input(" choose code  : ")
+			k="+98"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:	
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			menu()
 	elif bch =="15":
 	    os.system("clear")
 	    os.system("pip2 install --upgrade balln")
