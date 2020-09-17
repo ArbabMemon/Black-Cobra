@@ -299,7 +299,7 @@ def action():
 			raw_input("\n[ Back ]")
 			menu()
 	elif bch =="15":
-		os.system("clear"
+		os.system("clear")
 		print (logo)
 		print("1, 2, 3, 4, 6, 7,")
 		try:
