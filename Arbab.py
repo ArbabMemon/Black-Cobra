@@ -86,7 +86,7 @@ def menu():
 	print '[13] Iran'
 	print '[14] Iraq'
 	print '[15] Saudi Arabia'
-	print '[16] Russia
+	print '[16] Russia'
 	print
 	print "[17] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
