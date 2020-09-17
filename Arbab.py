@@ -262,7 +262,7 @@ def action():
 		print("Warid 50, 21, 31,")
 		try:
 			c = raw_input(" choose code  : ")
-			k="+62
+			k="+62"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
