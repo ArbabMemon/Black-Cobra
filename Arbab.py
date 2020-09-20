@@ -71,25 +71,14 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;93mSix (06) Code Generator"
+	print "\033[1;91mSix (06) Code Generator"
 	print "\033[1;93mPassword Contain 06 digit"
 	print 
-	print "\033[1;93m[1]  Bangladesh"
-	print "\033[1;94m[2]  USA"
-	print "\033[1;95m[3]  UK"
-	print "\033[1;96m[4]  India"
-	print "\033[1;97m[5]  Brazil"
-	print "\033[1;98m[6]  Japan"
-	print "\033[1;37m[7]  Korea"
-	print "\033[1;38m[8]  Italy"
-	print "\033[1;39m[9]  Spain"
-	print "\033[1;92m[10] Poland"
-	print "\033[1;91m[11] Pakistan"
-	print "\033[1;98m[12] Indonessia"
-	print "\033[1;93m[13] Iran"
-	print "\033[1;94m[14] Iraq"
-	print "\033[1;96m[15] Saudi Arabia"
-	print "\033[1;97m[16] Russia"
+	print "\033[1;92m[1]  MOBILINK"
+	print "\033[1;94m[2]  TELINOR"
+	print "\033[1;95m[3]  UFONE"
+	print "\033[1;96m[4]  WARID"
+	print "\033[1;97m[5]  ZONG"
 	print
 	print "[17] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
@@ -106,9 +95,11 @@ def action():
 	elif bch =="1":
 		os.system("clear")
 		print (logo)
+		print "\033[1;94m ("0300, 0301, 0302, 0303, 0304,")
+		print "\033[1;93m ("0305, 0306, 0307, 0308, 0309,")
 		try:
 			c = raw_input(" SELECT CODE HERE: ")
-			k="+880"
+			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -119,7 +110,7 @@ def action():
 	elif bch =="2":
 		os.system("clear")
 		print (logo)
-		print("786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
+		print "\033[1;95m ("340, 341, 342, 343, 344, 345, 346,")
 		try:
 			c = raw_input(" choose code  : ")
 			k="+1"
