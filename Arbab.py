@@ -91,10 +91,11 @@ def menu():
 	print "\033[1;96m[4]  WARID"
 	print "\033[1;97m[5]  ZONG"
 	print
-	print "\033[1;97mSUDAN NETWORKS
-	print "\033[1;97m[6]  SUDANI"
-	print "\033[1;97m[7]  ZAIN"
-	print "\033[1;97m[8]  MTM"
+	print "\033[1;91mSUDAN NETWORKS"
+	print "\033[1;93m[6]  SUDANI"
+	print "\033[1;95m[7]  ZAIN"
+	print "\033[1;96m[8]  MTM"
+	print
 	print "[6] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
 	print '[0]  Exit            '
@@ -204,7 +205,7 @@ def action():
 		print "\033[1;95mZAIN NUMBER CRACK"
 		print "\033[1;93m, 090, 091, 096,"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" ENTER HERE CODE: ")
 			k="+249"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -216,10 +217,10 @@ def action():
 	elif bch =="9":
 		os.system("clear")
 		print (logo)
-		print "\033[1;94mMTM NUMBER CRACK
+		print "\033[1;94mMTM NUMBER CRACK"
 		print "\033[1;92m 092, 099,"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" ENTER HERE CODE: ")
 			k="+249"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
