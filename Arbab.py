@@ -199,7 +199,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-	elif bch =="8":
+	elif bch =="7":
 		os.system("clear")
 		print (logo)
 		print "\033[1;95mZAIN NUMBER CRACK"
@@ -214,7 +214,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-	elif bch =="9":
+	elif bch =="8":
 		os.system("clear")
 		print (logo)
 		print "\033[1;94mMTM NUMBER CRACK"
