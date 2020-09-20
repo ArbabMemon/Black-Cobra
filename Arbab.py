@@ -7,7 +7,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(5000):
  
-    nmbr = random.randint(1111111111, 9999999999)
+    nmbr = random.randint(1111111, 9999999)
     
     sys.stdout = open('.txt', 'a')
  
@@ -91,6 +91,10 @@ def menu():
 	print "\033[1;96m[4]  WARID"
 	print "\033[1;97m[5]  ZONG"
 	print
+	print "\033[1;97mSUDAN NETWORKS
+	print "\033[1;97m[6]  SUDANI"
+	print "\033[1;97m[7]  ZAIN"
+	print "\033[1;97m[8]  MTM"
 	print "[6] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
 	print '[0]  Exit            '
@@ -122,8 +126,8 @@ def action():
 	elif bch =="2":
 		os.system("clear")
 		print (logo)
-		print "\033[1:95mTELINORE CODES HERE SELECTION"
-		print "\033[1:94m340, 341, 342, 343, 344, 345, 346,"
+		print "\033[1;95mTELINORE CODES HERE SELECTION"
+		print "\033[1;94m340, 341, 342, 343, 344, 345, 346,"
 		try:
 			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
@@ -137,7 +141,7 @@ def action():
 	elif bch =="3":
 		os.system("clear")
 		print (logo)
-		print "\033[1:96m UFONE CODES HERE SELECTION"
+		print "\033[1;96m UFONE CODES HERE SELECTION"
 		print "\033[1;91m 336, 334, 335, 334, 332, 331,"
 		try:
 			c = raw_input(" SELEC ANY CODE  : ")
@@ -152,8 +156,8 @@ def action():
 	elif bch =="4":
 		os.system("clear")
 		print (logo)
-		print "\033[1:97m WARID CODES HERE SELECT"
-		print "\033[1:92m 320, 321, 322, 323, 324,"
+		print "\033[1;97m WARID CODES HERE SELECT"
+		print "\033[1;92m 320, 321, 322, 323, 324,"
 		try:
 			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
@@ -167,8 +171,8 @@ def action():
 	elif bch =="5":
 		os.system("clear")
 		print (logo)
-		print "\033[1:94mZONG CODES HERE SELECTION ANY ONE"
-		print "\033[1:94m310, 311, 312, 313, 316, 315, 316, 317"
+		print "\033[1;94mZONG CODES HERE SELECTION ANY ONE"
+		print "\033[1;94m310, 311, 312, 313, 316, 315, 316, 317"
 		try:
 			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
@@ -182,10 +186,11 @@ def action():
 	elif bch =="6":
 		os.system("clear")
 		print (logo)
-		print("1, 2, 3, 4, 5, 6, 7, 8, 9")
+		print "\033[1;97mSUDANI NUMBERS CRACK"
+		print "\033[1;96m0123, 0122, 0112, 0100"
 		try:
 			c = raw_input(" SELEC ANY CODE  : ")
-			k="+82"
+			k="+249"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -196,10 +201,11 @@ def action():
 	elif bch =="8":
 		os.system("clear")
 		print (logo)
-		print("388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328")
+		print "\033[1;95mZAIN NUMBER CRACK"
+		print "\033[1;93m, 090, 091, 096,"
 		try:
 			c = raw_input(" choose code  : ")
-			k="+39"
+			k="+249"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -210,10 +216,11 @@ def action():
 	elif bch =="9":
 		os.system("clear")
 		print (logo)
-		print("60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
+		print "\033[1;94mMTM NUMBER CRACK
+		print "\033[1;92m 092, 099,"
 		try:
 			c = raw_input(" choose code  : ")
-			k="+34"
+			k="+249"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
