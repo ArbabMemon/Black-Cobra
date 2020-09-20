@@ -82,9 +82,9 @@ def menu():
 	print logo
 	print "\033[1;91mSIX (06) CODES GENERATOR"
 	print "\033[1;98mPASSWOR CONTAIN 06 DIGIT"
-	print "\033[1;96mATTACK ON NETWORKING
+	print "\033[1;96mATTACK ON NETWORKING"
 	print
-	print "\033[1;93mPAKISTAN NETWORKS
+	print "\033[1;93mPAKISTAN NETWORKS"
 	print "\033[1;92m[1]  MOBILINK"
 	print "\033[1;94m[2]  TELINOR"
 	print "\033[1;95m[3]  UFONE"
