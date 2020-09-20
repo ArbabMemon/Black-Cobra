@@ -110,7 +110,7 @@ def action():
 		print "\033[1;95m300, 301, 302, 303, 304,"
 		print "\033[1;95m305, 306, 307, 308, 309,"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELEC ANY CODE : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -125,7 +125,7 @@ def action():
 		print "\033[1:95mTELINORE CODES HERE SELECTION"
 		print "\033[1:94m340, 341, 342, 343, 344, 345, 346,"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -140,7 +140,7 @@ def action():
 		print "\033[1:96m UFONE CODES HERE SELECTION"
 		print "\033[1;91m 336, 334, 335, 334, 332, 331,"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -155,7 +155,7 @@ def action():
 		print "\033[1:97m WARID CODES HERE SELECT"
 		print "\033[1:92m 320, 321, 322, 323, 324,"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -170,7 +170,7 @@ def action():
 		print "\033[1:94mZONG CODES HERE SELECTION ANY ONE"
 		print "\033[1:94m310, 311, 312, 313, 316, 315, 316, 317"
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELEC ANY CODE  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -184,7 +184,7 @@ def action():
 		print (logo)
 		print("1, 2, 3, 4, 5, 6, 7, 8, 9")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELEC ANY CODE  : ")
 			k="+82"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
