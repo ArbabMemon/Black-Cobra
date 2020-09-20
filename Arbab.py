@@ -55,12 +55,21 @@ def cb():
 ##### LOGO #####
 logo='''
  
---------------------------------------------------
-➣ Auther   : Cyber Hacker Arbab Ali Memon
-➣ Whatsapp No 923003023263
-➣ Black_Cobra Commond Will Update Once In Wk
-➣ Youtube Channel Cyber Gange Hidden Tricker
---------------------------------------------------
+\x1b[1;96m░█████╗░██████╗░██████╗░░█████╗░██████╗░
+\x1b[1;97m██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+\x1b[1;95m███████║██████╔╝██████╦╝███████║██████╦╝
+\x1b[1;94m██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
+\x1b[1;91m██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
+\x1b[1;97m╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
+\x1b[1;93m--------------------------------------------------------------
+\x1b[1;92m➣  YouTube  : CYBER GANGE HIDDEN TRICKER
+\x1b[1;91m➣  Facebook : ARBAB MEMON
+\x1b[1;93m➣  Note     : CYBER PLAYER R.H.S 1.0286
+\x1b[1;95m➣  Warning  : IF NOT WORK THAN USE FREE VPN
+\x1b[1;96m➣  Whatsapp : +923003023263
+\x1b[1;97m➣  Note     : ANY KIND PROBLEM MSG ME.
+\x1b[1;94m➣  Disclamiar :AWAY FROM ILLIGAL WAY.
+\x1b[1;93m--------------------------------------------------------------"""
                                 '''
  
 back = 0
@@ -113,7 +122,7 @@ def action():
 		print "\033[1;95m340, 341, 342, 343, 344, 345, 346,"
 		try:
 			c = raw_input(" choose code  : ")
-			k="+1"
+			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -127,7 +136,7 @@ def action():
 		print("737, 706, 748, 783, 739, 759, 790")
 		try:
 			c = raw_input(" choose code  : ")
-			k="+44"
+			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -138,7 +147,7 @@ def action():
 	elif bch =="4":
 		os.system("clear")
 		print (logo)
-		print("954, 897, 967, 937, 700, 727, 965, 786, 874, 856, 566, 590, 527, 568, 578")
+		print "\033[1;91m 320, 321, 322, 323, 324"
 		try:
 			c = raw_input(" choose code  : ")
 			k="+91"
