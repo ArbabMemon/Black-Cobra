@@ -7,7 +7,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(5000):
  
-    nmbr = random.randint(11111111, 99999999)
+    nmbr = random.randint(111111111, 999999999)
     
     sys.stdout = open('.txt', 'a')
  
@@ -137,8 +137,8 @@ def action():
 	elif bch =="3":
 		os.system("clear")
 		print (logo)
-		print "\033[1:96mUFONE CODES HERE SELECTION"
-		print "\033[1;91m336, 334, 335, 334, 332, 331,"
+		print "\033[1:96m UFONE CODES HERE SELECTION"
+		print "\033[1;91m 336, 334, 335, 334, 332, 331,"
 		try:
 			c = raw_input(" choose code  : ")
 			k="+92"
@@ -152,7 +152,7 @@ def action():
 	elif bch =="4":
 		os.system("clear")
 		print (logo)
-		print "\033[1:97mWARID CODES HERE SELECT"
+		print "\033[1:97m WARID CODES HERE SELECT"
 		print "\033[1:92m 320, 321, 322, 323, 324,"
 		try:
 			c = raw_input(" choose code  : ")
