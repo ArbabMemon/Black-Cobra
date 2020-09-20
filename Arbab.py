@@ -95,8 +95,8 @@ def action():
 	elif bch =="1":
 		os.system("clear")
 		print (logo)
-		print "\033[1;94m ("0300, 0301, 0302, 0303, 0304,")
-		print "\033[1;93m ("0305, 0306, 0307, 0308, 0309,")
+		print "\033[1;94m0300, 0301, 0302, 0303, 0304,"
+		print "\033[1;93m0305, 0306, 0307, 0308, 0309,"
 		try:
 			c = raw_input(" SELECT CODE HERE: ")
 			k="+92"
@@ -110,7 +110,7 @@ def action():
 	elif bch =="2":
 		os.system("clear")
 		print (logo)
-		print "\033[1;95m ("340, 341, 342, 343, 344, 345, 346,")
+		print "\033[1;95m340, 341, 342, 343, 344, 345, 346,"
 		try:
 			c = raw_input(" choose code  : ")
 			k="+1"
