@@ -80,16 +80,18 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print "\033[1;91mSix (06) Code Generator"
-	print "\033[1;93mPassword Contain 06 digit"
-	print 
+	print "\033[1;91mSIX (06) CODES GENERATOR"
+	print "\033[1;98mPASSWOR CONTAIN 06 DIGIT"
+	print "\033[1;96mATTACK ON NETWORKING
+	print
+	print "\033[1;93mPAKISTAN NETWORKS
 	print "\033[1;92m[1]  MOBILINK"
 	print "\033[1;94m[2]  TELINOR"
 	print "\033[1;95m[3]  UFONE"
 	print "\033[1;96m[4]  WARID"
 	print "\033[1;97m[5]  ZONG"
 	print
-	print "[17] UPDATE COMMAND"
+	print "[6] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
 	print '[0]  Exit            '
 	print 50*'-'
@@ -104,10 +106,11 @@ def action():
 	elif bch =="1":
 		os.system("clear")
 		print (logo)
-		print "\033[1;94m0300, 0301, 0302, 0303, 0304,"
-		print "\033[1;93m0305, 0306, 0307, 0308, 0309,"
+		print "\033[1;91mMOBILINK/JAZZ CODE HERE"
+		print "\033[1;95m300, 301, 302, 303, 304,"
+		print "\033[1;95m305, 306, 307, 308, 309,"
 		try:
-			c = raw_input(" SELECT CODE HERE: ")
+			c = raw_input(" choose code  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -119,7 +122,8 @@ def action():
 	elif bch =="2":
 		os.system("clear")
 		print (logo)
-		print "\033[1;95m340, 341, 342, 343, 344, 345, 346,"
+		print "\033[1:95mTELINORE CODES HERE SELECTION"
+		print "\033[1:94m340, 341, 342, 343, 344, 345, 346,"
 		try:
 			c = raw_input(" choose code  : ")
 			k="+92"
@@ -133,7 +137,8 @@ def action():
 	elif bch =="3":
 		os.system("clear")
 		print (logo)
-		print("737, 706, 748, 783, 739, 759, 790")
+		print "\033[1:96mUFONE CODES HERE SELECTION"
+		print "\033[1;91m336, 334, 335, 334, 332, 331,"
 		try:
 			c = raw_input(" choose code  : ")
 			k="+92"
@@ -147,10 +152,11 @@ def action():
 	elif bch =="4":
 		os.system("clear")
 		print (logo)
-		print "\033[1;91m 320, 321, 322, 323, 324"
+		print "\033[1:97mWARID CODES HERE SELECT"
+		print "\033[1:92m 320, 321, 322, 323, 324,"
 		try:
 			c = raw_input(" choose code  : ")
-			k="+91"
+			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -161,10 +167,11 @@ def action():
 	elif bch =="5":
 		os.system("clear")
 		print (logo)
-		print("127, 179, 117, 853, 318, 219, 834, 186, 479, 113")
+		print "\033[1:94mZONG CODES HERE SELECTION ANY ONE"
+		print "\033[1:94m310, 311, 312, 313, 316, 315, 316, 317"
 		try:
 			c = raw_input(" choose code  : ")
-			k="+55"
+			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -173,20 +180,6 @@ def action():
 			raw_input("\n[ Back ]")
 			menu()
 	elif bch =="6":
-		os.system("clear")
-		print (logo)
-		print("11, 12, 19, 16, 15, 13, 14, 18, 17")
-		try:
-			c = raw_input(" choose code  : ")
-			k="+81"
-			idlist = ('.txt')
-			for line in open(idlist,"r").readlines():
-				id.append(line.strip())
-		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
-			menu()
-	elif bch =="7":
 		os.system("clear")
 		print (logo)
 		print("1, 2, 3, 4, 5, 6, 7, 8, 9")
